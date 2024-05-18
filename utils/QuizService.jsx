@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const api = axios.create({
-	baseURL: "https://server-8yo5.onrender.com"
+	baseURL: "https://server-8yo5.onrender.com/api/quizzes"
 })
 
 export const createQuestion = async(quizQustion) =>{
